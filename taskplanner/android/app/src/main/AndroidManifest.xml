@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.taskplanner">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
    <application
-        android:label="taskplanner"
+        android:label="SansBmol"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
